@@ -1,5 +1,39 @@
 # Unit 11 - Risky Business
- 
+
+## Ensemble Learning 
+<i> 1. Which model had the best balanced accuracy score?</i>
+
+<b>The Easy Ensemble Classifier had a higher balanced accuracy score at 78.71%.</b>
+    
+<i> 2. Which model had the best recall score?</i>
+
+<b>The Easy Ensemble Classifier had better score at 94.27%.</b>
+        
+<i> 3. Which model had the best geometric mean score?</i>
+
+<b>The Easy Ensemble Classifier has the best geometric mean score at 92.53%.</b>
+   
+<i> 4. What are the top three features?</i>
+
+  <li> (0.07573794334112029, 'last_pymnt_amnt')</li>
+  <li> (0.07220983967918684, 'total_rec_prncp')</li>
+  <li> (0.05654562344394675, 'total_pymnt')</li>
+
+## Resampling
+<i>1. Which model had the best balanced accuracy score?</i>
+
+   <b>The two oversampling models have the best balanced accuracy score at 99.45%.</b>
+
+<i>2. Which model had the best recall score?</i>
+
+   <b>The two oversampling models have the best recall score at 99.36% and 99.43%.</b>
+
+<i>3. Which model had the best geometric mean score?</i>
+
+   <b>The oversampling models have geometric mean score at 99.45% and 99.53%.</b>
+
+
+
 ![Credit Risk](Images/credit-risk.jpg)
 
 ## Background
